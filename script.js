@@ -24,7 +24,6 @@ for (let i = 0; i < WIDTH*HEIGHT; i++)
 
     pixelDiv.addEventListener('mousemove', e => 
         {
-            clog(`pixel ${i + 1} hovered`)
             if (e.buttons) // e.button has the value 1 when the left mouse button is clicked
             {
                 pixelDiv.style['background-color'] = 'black'
