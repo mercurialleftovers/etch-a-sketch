@@ -7,7 +7,7 @@
 .board {
     display     : flex;
     flex-wrap   : wrap;
-    border      : 1px solid black;
+    /* border      : 1px solid black; */ /* this reduces the space and causes one row of boxes to be in an additional line */
 }
 
 .pixel {
